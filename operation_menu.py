@@ -62,7 +62,7 @@ def select_option_menu(option, contacts):
         delete_contact(contacts)
     elif option == "6":
         print("Thanks you for using the Contact Book. Goodbye!")
-        return False  # 🔹 Indicamos que el programa debe terminar
+        return False  # Indicamos que el programa debe terminar
     else:
         print("Invalid choice. Please select a valid option (1-6).")
-    return True  # 🔹 Continuamos ejecutando
+    return True  # Continuamos ejecutando

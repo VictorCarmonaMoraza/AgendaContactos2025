@@ -8,8 +8,8 @@ contact_book = {}
 while True:
     show_menu()
     choice = input("Enter your choice (1-6): ")
-    # 🚨 guardamos el valor de retorno
+    # guardamos el valor de retorno
     keep_running = select_option_menu(choice, contact_book)
 
     if not keep_running:
-        break  # 🚨 rompe el bucle principal
+        break  #
